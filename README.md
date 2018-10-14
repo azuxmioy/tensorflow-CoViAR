@@ -13,7 +13,7 @@ The model is implemented in the following environment:
 
 ## Datasets
 As mentioned in the paper, original .avi input videos need to be encoded into the .mpeg4 format with the GOP structure described in this paper. For convenience, we provide converted training data in the following links. 
-* UCF101 (15.35 GB)
+* [UCF101](https://drive.google.com/file/d/1IbDDnHO0SZy4Y_7bOb6Mur3uTSETboi7/view?usp=sharing) (15.35 GB)
 * [HMDB-51](https://drive.google.com/file/d/1J_jvE57bAP0HM8wvlg9gMFNuqcxqlGm4/view?usp=sharing) (3.57 GB)
 
 ## Data Loader
@@ -41,11 +41,10 @@ tensorboard --logdir=logs/coviar
 ```
 #### Visualization of classification loss
 
-![](https://i.imgur.com/fnqb9S4.png)
+<img src="https://i.imgur.com/fnqb9S4.png" height="350">
 
 #### Visualization of validation accuracy
-
-![](https://i.imgur.com/yt3FeBz.png)
+<img src="https://i.imgur.com/yt3FeBz.png" height="350">
 
 Note taht the i-frames model is based on ResNet 152, therefore it takes more time to converge during training.
 
@@ -53,4 +52,5 @@ Note taht the i-frames model is based on ResNet 152, therefore it takes more tim
 
 Chao-Yuan Wu, et al., "Compressed Video Action Recognition", CVPR 2018.
 
-"[pytorch-coviar](https://github.com/chaoyuaw/pytorch-coviar)", original implemetaion from the author
+"[pytorch-coviar](https://github.com/chaoyuaw/pytorch-coviar)", the original implementation from the author
+
